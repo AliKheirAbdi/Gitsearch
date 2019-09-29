@@ -9,7 +9,7 @@ Ali Kheir
 akheirali(@)gmail.com
 # Project Description
 
-An angular Git-search application where users can search through using their git user names and a list of their public repositories is generated. The application uses the github API to access this information. By default, the application displays my git hub details; i.e, name and a list of my github repositories.
+A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also search for repositories. The application uses the github API to access this information. By default, the application displays my git hub details; i.e, name and a list of my github repositories.
 ## Technologies used
 
 * Typescript
@@ -17,6 +17,8 @@ An angular Git-search application where users can search through using their git
 * HTML
 * CSS
 * Bootstrap
+## Live Site
+https://git-search-6c391.firebaseapp.com
 ## Development
 
 Want to contributeto this project?
