@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PortraitClassComponent } from './portrait-class/portrait-class.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PortraitClassComponent
   ],
   imports: [
     BrowserModule,
