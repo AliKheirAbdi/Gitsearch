@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PortraitClassComponent } from './portrait-class/portrait-class.component';
 import { TheUserComponent } from './the-user/the-user.component';
+import { ViewComponent } from './view/view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PortraitClassComponent,
-    TheUserComponent
+    TheUserComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
