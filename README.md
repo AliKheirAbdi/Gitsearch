@@ -10,6 +10,8 @@ akheirali(@)gmail.com
 # Project Description
 
 A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also search for repositories. The application uses the github API to access this information. By default, the application displays my git hub details; i.e, name and a list of my github repositories.
+## App Screenshot
+![image](https://github.com/AliKheirAbdi/Gitsearch/blob/master/screenshot.png)
 ## Technologies used
 
 * Typescript
