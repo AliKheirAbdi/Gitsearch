@@ -12,14 +12,14 @@ import { FormsModule } from '@angular/forms';
   providers: [PortraitService]
 })
 export class TheUserComponent implements OnInit {
-  
+
   portrait: Portrait;
   repo: Repository;
   userRepo: any;
   userName : string;
-  
 
-  constructor(private http:HttpClient, public portraitService: PortraitService) { 
+
+  constructor(private http:HttpClient, public portraitService: PortraitService) {
 
   }
 
@@ -27,11 +27,11 @@ export class TheUserComponent implements OnInit {
     this.portraitService.updateProfile(this.userName);
 
     this.portraitService.getUserinfo();
-    this.portrait = this.portraitService.portrait; 
+    this.portrait = this.portraitService.portrait;
     this.portraitService.getRepoInfo(this.userName);
     this.userRepo = this.portraitService.newRepos;
   }
- 
+
   ngOnInit() {
     this.portraitService.getRepoInfo(this.userName);
     this.repo = this.portraitService.repo;
