@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PortraitClassComponent } from './portrait-class.component';
+import { PortraitClassComponent } from './portrait';
 
 describe('PortraitClassComponent', () => {
   let component: PortraitClassComponent;

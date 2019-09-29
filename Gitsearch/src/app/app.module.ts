@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PortraitClassComponent } from './portrait-class/portrait-class.component';
+import { PortraitClassComponent } from './portrait-class/portrait';
 import { TheUserComponent } from './the-user/the-user.component';
 import { ViewComponent } from './view/view.component';
 
